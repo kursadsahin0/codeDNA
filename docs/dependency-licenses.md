@@ -1,0 +1,5 @@
+# Dependency license review
+
+Reviewed from the checked-in `package.json` and the installed production dependency graph using `pnpm licenses list --prod` on 2026-10-21. The graph includes MIT, Apache-2.0 (`class-variance-authority`, `@swc/helpers`, `baseline-browser-mapping`), ISC (`lucide-react`, `picocolors`), BSD-3-Clause (`source-map-js`), 0BSD (`tslib`), CC-BY-4.0 (`caniuse-lite`), and SIL Open Font License 1.1 (`@fontsource-variable/geist`, `@fontsource-variable/geist-mono`). Remaining listed production packages report MIT. Build/test dependencies are development-only and are not included in this production graph.
+
+This is a source-level review, not legal advice or a generated attribution inventory. Transitive licenses can change when the lockfile changes. Before distributing a compiled bundle, generate and retain the full dependency notice list for that exact lockfile. The CodeDNA application itself has no `LICENSE` file at this revision; its copyright/license is not granted by the licenses of its dependencies.
